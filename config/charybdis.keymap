@@ -20,8 +20,8 @@
 &kp TAB       &kp Q           &kp W           &kp E               &kp R             &kp T       &kp Y         &kp U              &kp I                &kp O            &kp P               &kp BACKSLASH
 &kp CAPSLOCK  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G       &kp H         &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI  &kp SQT
 &kp ESCAPE    &kp Z           &kp X           &kp C               &kp V             &kp B       &kp N         &kp M              &kp COMMA            &kp DOT          &kp FSLH            &kp DELETE
-                                              &mo 1               &kp SPACE         &to 3       &kp RETURN    &mo 2
-                                                                  &mkp MB1          &mkp MB2    &none
+                                              &lt 1 SPACE         &kp SPACE         &to 3       &kp RETURN    &mo 2
+                                                                  &mkp MB1          &mkp MB2    &kp GLOBE
             >;
 
             trackball-bindings = <&tmv_coarse>;
@@ -29,11 +29,11 @@
 
         layer_1 {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &none      &none          &none         &none      &none    &none
-&none       &none             &none         &none         &none           &none           &kp HOME   &kp PAGE_DOWN  &kp PG_UP     &kp END    &none    &none
-&none       &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL     &kp LEFT_SHIFT  &none           &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp INS  &none
-&none       &none             &none         &none         &none           &none           &none      &none          &none         &none      &none    &none
-                                            &none         &none           &none           &kp MINUS  &kp EQUAL
+&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &none     &none          &none         &none      &none    &none
+&none       &none             &none         &none         &none           &none           &kp HOME  &kp PAGE_DOWN  &kp PG_UP     &kp END    &none    &none
+&none       &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL     &kp LEFT_SHIFT  &none           &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp INS  &none
+&none       &none             &none         &none         &none           &none           &none     &none          &none         &none      &none    &none
+                                            &none         &none           &none           &none     &none
                                                           &none           &none           &none
             >;
 
@@ -42,12 +42,12 @@
 
         layer_2 {
             bindings = <
-&trans      &trans                 &trans                         &trans               &trans               &trans       &trans     &trans                         &trans                &trans                           &trans                  &trans
-&trans      &kp F1                 &kp F2                         &kp F3               &kp F4               &kp F5       &kp F6     &kp F7                         &kp F8                &kp F9                           &kp F10                 &kp F11
-&kp K_MUTE  &mt LEFT_GUI C_VOL_DN  &mt LEFT_ALT LEFT_PARENTHESIS  &mt LEFT_CONTROL LT  &mt LEFT_SHIFT LBKT  &kp MINUS    &kp EQUAL  &mt RIGHT_SHIFT RIGHT_BRACKET  &mt RIGHT_CONTROL GT  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_GUI C_VOL_UP  &kp F12
-&trans      &trans                 &trans                         &trans               &trans               &trans       &trans     &trans                         &trans                &trans                           &trans                  &trans
-                                                                  &trans               &trans               &trans       &trans     &trans
-                                                                                       &trans               &trans       &trans
+&trans       &trans                   &trans                     &trans                   &trans               &trans       &trans     &trans                         &trans                    &trans                       &trans                  &trans
+&kp K_SLEEP  &kp F1                   &kp F2                     &kp F3                   &kp F4               &kp F5       &kp F6     &kp F7                         &kp F8                    &kp F9                       &kp F10                 &kp F11
+&kp K_LOCK   &mt LEFT_GUI K_PREVIOUS  &mt LEFT_ALT K_PLAY_PAUSE  &mt LEFT_CONTROL K_NEXT  &mt LEFT_SHIFT LBKT  &kp MINUS    &kp EQUAL  &mt RIGHT_SHIFT RIGHT_BRACKET  &mt RIGHT_CONTROL K_MUTE  &mt RIGHT_ALT C_VOLUME_DOWN  &mt RIGHT_GUI C_VOL_UP  &kp F12
+&trans       &trans                   &trans                     &trans                   &kp K_CALCULATOR     &trans       &trans     &trans                         &trans                    &trans                       &trans                  &trans
+                                                                 &trans                   &trans               &trans       &trans     &trans
+                                                                                          &trans               &trans       &trans
             >;
         };
 
