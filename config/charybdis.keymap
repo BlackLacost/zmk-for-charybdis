@@ -21,7 +21,7 @@
 &kp CAPSLOCK  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G       &kp H         &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI  &kp SQT
 &kp ESCAPE    &kp Z           &kp X           &kp C               &kp V             &kp B       &kp N         &kp M              &kp COMMA            &kp DOT          &kp FSLH            &kp DELETE
                                               &lt 1 SPACE         &none             &none       &kp RETURN    &mo 2
-                                                                  &mkp MB1          &mkp MB2    &none
+                                                                  &mkp MB1          &mkp MB2    &kp GLOBE
             >;
 
             trackball-bindings = <&tmv_coarse>;
