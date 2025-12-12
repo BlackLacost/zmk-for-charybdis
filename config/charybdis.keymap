@@ -10,10 +10,7 @@
     quick-tap-ms = <150>;
 };
 
-&mt {
-    hold-trigger-on-release;
-    flavor = "tap-preferred";
-};
+&mt { flavor = "tap-preferred"; };
 
 / {
     keymap {
