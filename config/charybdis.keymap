@@ -10,6 +10,11 @@
     quick-tap-ms = <150>;
 };
 
+&mt {
+    hold-trigger-on-release;
+    flavor = "tap-preferred";
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
